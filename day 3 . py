@@ -1,0 +1,23 @@
+a = 2
+b = 5 
+print( a+ b) 
+
+a = 10 
+b =5
+print( a- b)
+
+a = 1102
+b = 1001
+print( a* b)
+
+a = -40
+b= 4
+print( a/b )
+
+a = 352.647
+b = 538.747
+print( b/a)
+
+a = 11 
+b = 7 
+print(a % b )
