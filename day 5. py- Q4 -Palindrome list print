@@ -1,0 +1,68 @@
+
+# function which return reverse of a string
+ 
+def isPalindrome(s):
+
+   return s == s[::-1]
+  
+# Driver code
+
+s = "madam"
+
+ans = s == s[::-1]
+
+if ans:
+    print("madam")
+
+else:
+    print() 
+
+i = "papap"
+
+ans = i == i[::-1]
+
+if ans:
+    print("papap")
+
+else:
+    print() 
+    
+g = [1,2,2]
+    
+ans = isPalindrome(g)
+
+if ans:
+
+    print("[1,2,2]")
+
+else:
+    print() 
+    
+z = [3,7,3]
+
+ans = isPalindrome(z)
+
+if ans:
+    print("[3,7,3]")
+
+else:
+    print()
+    
+a = [2,5,2]
+
+ans = isPalindrome(z)
+
+if ans:
+    print("[2,5,2]")
+else:
+    print()
+    
+r = [4,6,4]
+
+ans = isPalindrome(z)
+
+if ans:
+    print("[4,6,4]")
+
+else:
+    print()
