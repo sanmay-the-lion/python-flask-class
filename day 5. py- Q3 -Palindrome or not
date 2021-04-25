@@ -1,0 +1,50 @@
+'''
+
+# function which return reverse of a string
+ 
+def isPalindrome(s):
+
+   return s == s[::-1]
+  
+# Driver code
+
+s = "madam"
+
+ans = s == s[::-1]
+
+if ans:
+    print("madam = yes")
+
+else:
+    print() 
+
+i = "papa"
+
+ans = i == i[::-1]
+
+if ans:
+    print("papa = yes")
+
+else:
+    print() 
+    
+g = [1,2,2]
+    
+ans = isPalindrome(g)
+
+if ans:
+
+    print("[1,2,2] = yes")
+
+else:
+    print() 
+    
+z = [3,7,3]
+
+ans = isPalindrome(z)
+
+if ans:
+    print("[3,7,3] = yes")
+
+else:
+    print()
