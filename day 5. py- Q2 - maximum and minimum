@@ -1,0 +1,11 @@
+a = [357,677,589,786,89,8388,3747,878,837,83768,83749,9839]
+max_v = a[0]
+min_v = a[0]
+for i in range(1,len(a)):
+    if min_v > a[i]
+    min_v = a[i]
+    
+ if max_v < a[i]
+  max_ v = a[i]
+  
+  print("max_v:{} and min_v:{}". format(max_v,min_v))
