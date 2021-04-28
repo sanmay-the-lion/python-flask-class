@@ -1,0 +1,18 @@
+z=1
+l1=[]
+while z:
+    i=1
+    print('1 : register \n2 : view enrolled \n0 : exit \n')
+    z1=int(input())
+    if z1==0:
+        z=0
+    if z1==2:
+        c=1
+        print("\nuser_id : ",user['user_id'],'\nname : ',user['name'],'\nemailid :',user['email'],'\nselected courses are : \n')
+        for i in user['selectedcourses']:
+            print(c ,':' ,i,'\n\n')
+            c=c+1        
+        
+    if z1==1:
+        print('enter your details to register : \n')
+        r=input("enter user_id")
