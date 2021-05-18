@@ -1,0 +1,30 @@
+import requests
+
+API_KEY = 'ed25392973ee4646a4426a126139f7eb'
+
+def get_everything(search):
+	url = 'https://newsapi.org/v2/everything'
+	p = {
+		'apiKey': API_KEY,
+		'q' : search
+	}
+	responce = requests.get(url, params=p)
+	data = responce.json()
+	return data['articles']
+
+def get_top_headlines(category=None):
+	url = 'https://newsapi.org/v2/top-headlines'
+	if category:
+		p = {
+			'country':'in',
+			'apiKey': API_KEY,
+			'category': category
+		}
+	else:
+		p = {
+			'country':'in',
+			'apiKey': API_KEY
+		}
+	responce = requests.get(url, params=p)
+	data = responce.json()
+	return data['articles']
